@@ -48,6 +48,3 @@ jobs:
         if: always()
         uses: actions/deploy-pages@v4
 
-Step 4: Alternative - Deploy to AWS S3
---------------------------------------------
-If you prefer AWS, you can deploy the results to an S3 bucket:
