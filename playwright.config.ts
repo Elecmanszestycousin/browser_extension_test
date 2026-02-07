@@ -1,4 +1,9 @@
 import { defineConfig, devices } from '@playwright/test';
+reporters: [
+  ['./summary-reporter.js'],
+  ['html'],
+  ['list']
+],
 
 /**
  * Read environment variables from file.
